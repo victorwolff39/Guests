@@ -1,11 +1,11 @@
-package net.alerok.guests.ui.guestform
+package net.alerok.guests.activity.guestform
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import net.alerok.guests.service.repository.GuestRepository
 import net.alerok.guests.service.models.GuestModel
+import net.alerok.guests.service.repository.GuestRepository
 
 class GuestsFormViewModel(application: Application) : AndroidViewModel(application) {
 

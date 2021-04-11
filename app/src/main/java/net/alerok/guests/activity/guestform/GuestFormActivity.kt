@@ -1,4 +1,4 @@
-package net.alerok.guests.ui.guestform
+package net.alerok.guests.activity.guestform
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

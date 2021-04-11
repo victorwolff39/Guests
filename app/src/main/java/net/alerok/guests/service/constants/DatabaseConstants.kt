@@ -1,6 +1,7 @@
 package net.alerok.guests.service.constants
 
-class DatabaseConstants {
+class DatabaseConstants private constructor() {
+
     object GUEST {
         const val TABLE_NAME = "Guest"
 

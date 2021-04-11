@@ -5,18 +5,17 @@ import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 import net.alerok.guests.service.constants.DatabaseConstants
 
-class GuestDatabaseHelper(context: Context) : SQLiteOpenHelper(context, "", null, 1) {
+class GuestDataBaseHelper(context: Context) : SQLiteOpenHelper(context, NAME, null, VERSION) {
+
     override fun onCreate(db: SQLiteDatabase) {
         db.execSQL(CREATE_TABLE_GUEST)
     }
 
-    override fun onUpgrade(db: SQLiteDatabase?, oldVersion: Int, newVersion: Int) {
-
-    }
+    override fun onUpgrade(db: SQLiteDatabase?, oldVersion: Int, newVersion: Int) {}
 
     companion object {
-        private const val DATABASE_VERSION = 1
-        private const val DATABASE_NAME = "Guests.db"
+        private const val VERSION = 1
+        private const val NAME = "Guests.db"
 
         private const val CREATE_TABLE_GUEST =
             ("create table " + DatabaseConstants.GUEST.TABLE_NAME + " ("

@@ -1,4 +1,4 @@
-package net.alerok.guests.ui
+package net.alerok.guests.activity
 
 import android.content.Intent
 import android.os.Bundle
@@ -13,7 +13,7 @@ import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import net.alerok.guests.R
-import net.alerok.guests.ui.guestform.GuestFormActivity
+import net.alerok.guests.activity.guestform.GuestFormActivity
 
 class MainActivity : AppCompatActivity() {
 

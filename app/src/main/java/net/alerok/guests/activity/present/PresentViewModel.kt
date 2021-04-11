@@ -1,13 +1,13 @@
-package net.alerok.guests.ui.allguests
+package net.alerok.guests.activity.present
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class AllGuestsViewModel : ViewModel() {
+class PresentViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is guests Fragment"
+        value = "This is presents Fragment"
     }
     val text: LiveData<String> = _text
 }

@@ -1,4 +1,4 @@
-package net.alerok.guests.ui.allguests
+package net.alerok.guests.activity.allguests
 
 import android.os.Bundle
 import android.view.LayoutInflater
